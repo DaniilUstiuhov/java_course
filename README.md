@@ -1,6 +1,6 @@
 # Programming Language Java
 
-Academic project about Java through challenges.
+Academic project about Java through 22 challenges.
 
 ## Topics
 
