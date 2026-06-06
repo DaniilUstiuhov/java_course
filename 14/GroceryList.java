@@ -22,7 +22,10 @@ public class GroceryList {
                     String[] items = scanner.nextLine().split(",");
                     for (String item : items) {
                         String trimmed = item.trim();
-                        if (!trimmed.isEmpty()) {
+                        if (trimmed.isEmpty()) continue;
+                        if (groceries.contains(trimmed)) {
+                            System.out.println("Already in list: " + trimmed);
+                        } else {
                             groceries.add(trimmed);
                             System.out.println("Added: " + trimmed);
                         }
@@ -59,7 +62,9 @@ public class GroceryList {
         if (groceries.isEmpty()) {
             System.out.println("Grocery list is empty.");
         } else {
-            System.out.println("Current grocery list: " + groceries);
+            List<String> sorted = new ArrayList<>(groceries);
+            sorted.sort(String::compareToIgnoreCase);
+            System.out.println("Grocery list (sorted): " + sorted);
         }
     }
 }
