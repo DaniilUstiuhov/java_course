@@ -1,10 +1,10 @@
 # Programming Language Java
 
-Academic project covering core Java concepts through 22 hands-on challenges.
+Academic project about Java through challenges.
 
 ## Topics
 
-| # | Topic |
+| # | Name |
 |---|-------|
 | 1 | Operators & Calculations |
 | 2 | Methods |
