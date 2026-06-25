@@ -28,6 +28,10 @@ Academic project about Java through 22 challenges.
 | 20 | Nested Classes |
 | 21 | Lambdas |
 | 22 | Method References |
+| 23 | Bingo Game |
+| 24 | Terminal operations |
+| 25 | Aggregation |
+| 26 | Final stream |
 
 ## Requirements
 
